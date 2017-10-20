@@ -1,0 +1,7 @@
+Package: bcmaps.rdata
+Version: 0.0.0.9000
+Depends: R (>= 3.4.2)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: 27c59ddc5f3f87b2dd30268997c5ae7b
+NeedsCompilation: no
