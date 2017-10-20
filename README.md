@@ -1,13 +1,12 @@
 <div id="devex-badge"><a rel="Inspiration" href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="An idea being explored and shaped. Open for discussion, but may never go anywhere." style="border-width:0" src="https://assets.bcdevexchange.org/images/badges/inspiration.svg" title="An idea being explored and shaped. Open for discussion, but may never go anywhere." /></a></div>
-============================
 
 # drat - bcgov R package 📦 repository
 
 We are using the [drat](https://cran.r-project.org/package=drat) R package to 
 set up the infrastructure for a mini bcgov R package repository.
 
-The intent is to make it easy for bcgov R users to install bcgov R packages, and
-keep them up to date.
+The intent is to make it easy for bcgov R users to install bcgov R packages 
+that are not on CRAN, and keep them up to date.
 
 ### Usage
 
