@@ -26,7 +26,8 @@ drat::addRepo("bcgov")
 ```
 
 Add the above line to your `.Rprofile` file so that the bcgov drat repository is 
-available every time you run **R**.
+available every time you run **R**. [This discussion](https://csgillespie.github.io/efficientR/set-up.html#r-startup) 
+of R startup processes is a good introduction if you have never edited your `.Rprofile` before.
 
 Now you can install a package from the bcgov repository with `install.packages()`.
 For example:
@@ -42,56 +43,55 @@ On the command line:
 1. Clone this repository to your machine, open the directory, and checkout the
 `gh-pages` branch:
 
-```
-git clone https://github.com/bcgov/drat
-cd drat
-git checkout gh-pages
-```
+    ```
+    git clone https://github.com/bcgov/drat
+    cd drat
+    git checkout gh-pages
+    ```
 
-2. Build the package. This can be done on the command line or in R using devtools:
+2. Build the package that you want to add to the drat repository. This can be done on the command line or in R using `devtools`:
 
-  a. Command-line: Move to the directory in which your package director resides:
+    a. Command-line: Move to the directory in which your package directory resides and 
+replace *mypkg* with the name of your package. Either of these will build a file called
+`mykg_pkg.ver.tar.gz` one directory up from your package directory:
     
     ```
-    R CMD build "mypkg-
+    R CMD build "mypkg""
     ```
     
-  b. R/Rstudio: In the console in your R prackage poject:
+    b. R/Rstudio: In the console in your R package project:
     
     ```r
     devtools::build()
     ```
-    
-  Either of these will build a file called `mykg_pkg.ver.tar.gz` one directory 
-  up from your package directory.
 
 3. Open R, and use the `drat::insertPackage()` function to add the built package 
 (`tar.gz` file) to the drat repo:
 
-```r
-drat::insertPackage("mypackage_pkg.ver.tar.gz", "path/to/drat")
-```
+    ```r
+    drat::insertPackage("mypackage_pkg.ver.tar.gz", "path/to/drat")
+    ```
 
-*If you comfortable, you can add the argument `commit = TRUE` to the above function
-call and it will automatically commit the changes that add the package to the `gh-pages` 
-branch in the drat repository. Otherwise, go to step 4:*
+    * *If you are comfortable, you can add the argument `commit = TRUE` to the above function
+    call and it will automatically commit the changes that add the package to the `gh-pages` 
+    branch in the drat repository. Otherwise, go to step 4:*
 
 4. Back on the command line, navigate into the drat directory, and checkout the
 `gh-pages` branch:
 
-```
-cd drat
-git checkout gh-pages
-```
+    ```
+    cd drat
+    git checkout gh-pages
+    ```
 
 Then visually verify that the package has been added in `src/contrib`, then add, 
 commit, and push the changes. If you are a bcgov R package author and want to add
-your package to the drat repository, contact [Andy Teucher](andy.teucher@gov.bc.ca), 
-[Stephanie Hazlitt](stephanie.hazlitt@gov.bc.ca), or [Sam Albers](sam.albers@gov.bc.ca).
+your package to the drat repository, contact [Andy Teucher](mailto::andy.teucher@gov.bc.ca), 
+[Stephanie Hazlitt](mailto:stephanie.hazlitt@gov.bc.ca), or [Sam Albers](mailto:sam.albers@gov.bc.ca).
 
 ### Project Status
 
-#Under active development.
+*Under active development.*
 
 ## Getting Help or Reporting an Issue
 
