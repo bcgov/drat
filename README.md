@@ -74,7 +74,9 @@ git checkout gh-pages
 ```
 
 Then visually verify that the package has been added in `src/contrib`, then add, 
-commit, and push the changes.
+commit, and push the changes. If you are a bcgov R package author and want to add
+your package to the drat repository, contact [Andy Teucher](andy.teucher@gov.bc.ca), 
+[Stephanie Hazlitt](stephanie.hazlitt@gov.bc.ca), or [Sam Albers](sam.albers@gov.bc.ca).
 
 ### Project Status
 
