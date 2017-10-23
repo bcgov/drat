@@ -48,17 +48,28 @@ cd drat
 git checkout gh-pages
 ```
 
-2. Move to the directory in which your package directory resides, and build the package:
+2. Build the package. This can be done on the command line or in R using devtools:
 
-```
-R CMD build "mypkg-directory"
-```
+  a. Command-line: Move to the directory in which your package director resides:
+    
+    ```
+    R CMD build "mypkg-
+    ```
+    
+  b. R/Rstudio: In the console in your R prackage poject:
+    
+    ```r
+    devtools::build()
+    ```
+    
+  Either of these will build a file called `mykg_pkg.ver.tar.gz` one directory 
+  up from your package directory.
 
 3. Open R, and use the `drat::insertPackage()` function to add the built package 
 (`tar.gz` file) to the drat repo:
 
 ```r
-drat::insertPackage("mypackage_0.01.tar.gz", "path/to/drat")
+drat::insertPackage("mypackage_pkg.ver.tar.gz", "path/to/drat")
 ```
 
 *If you comfortable, you can add the argument `commit = TRUE` to the above function
