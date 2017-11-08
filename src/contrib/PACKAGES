@@ -1,8 +1,7 @@
 Package: bcgovr
 Version: 0.1.3
 Depends: R (>= 3.4.0),
-Imports: git2r (>= 0.15.0), rstudioapi (>= 0.7.0), devtools (>= 1.13.1),
-        shiny (>= 1.0), miniUI (>= 0.1)
+Imports: git2r (>= 0.15.0), rstudioapi (>= 0.7.0), devtools (>= 1.13.1), shiny (>= 1.0), miniUI (>= 0.1)
 Suggests: testthat
 License: Apache License (== 2.0) | file LICENSE
 MD5sum: 8e3a565d4a1f46cec2e1673043768fa6
@@ -14,15 +13,4 @@ Depends: R (>= 3.4.2)
 Suggests: sf (>= 0.5-4), bcmaps
 License: Apache License (== 2.0) | file LICENSE
 MD5sum: 27c59ddc5f3f87b2dd30268997c5ae7b
-NeedsCompilation: no
-
-Package: tidyhydat
-Version: 0.2.9
-Depends: R (>= 3.4.0)
-Imports: dplyr (>= 0.7.3), readr (>= 1.1.1), lubridate (>= 1.6.0), tidyr (>=
-        0.7.1), DBI (>= 0.7), RSQLite (>= 2.0), tibble (>= 1.3.4), httr (>=
-        1.3.1)
-Suggests: tidyverse, dbplyr, knitr, rmarkdown, testthat
-License: Apache License (== 2.0) | file LICENSE
-MD5sum: 99c28f0cd533d54f2a3179f6595b2062
 NeedsCompilation: no
