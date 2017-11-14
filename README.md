@@ -82,7 +82,7 @@ commit, and push the changes. Once you are satisfied you have added your package
  the bcgov drat repository, [create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to merge your changes (i.e. the addition of a new package) back in the bcgov drat repository.
 
 #### Package Authors: Removing a package from the bcgov drat repository.
-Removing a package from a drat repository is a multi-stage process whereby the source file of the package is removed, the repository index is updated and then the changes are committed and pushed. 
+Removing a package from a drat repository is a multi-stage process whereby the source file of the package is removed, the drat repository index is updated and then the changes are committed and pushed. 
 
 1. The first step is to [fork](https://help.github.com/articles/fork-a-repo/) this bcgov drat repository.
 
