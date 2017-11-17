@@ -8,9 +8,9 @@ MD5sum: 8e3a565d4a1f46cec2e1673043768fa6
 NeedsCompilation: no
 
 Package: bcmaps.rdata
-Version: 0.0.0.9000
+Version: 0.1.0
 Depends: R (>= 3.4.2)
 Suggests: sf (>= 0.5-4), bcmaps
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: 27c59ddc5f3f87b2dd30268997c5ae7b
+MD5sum: e83e737f21e11e53d34f1d2a0f3f23d7
 NeedsCompilation: no
