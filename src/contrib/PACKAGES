@@ -1,17 +1,17 @@
 Package: bcgovr
 Version: 0.1.3
 Depends: R (>= 3.4.0),
-Imports: git2r (>= 0.15.0), rstudioapi (>= 0.7.0), devtools (>=
-        1.13.1), shiny (>= 1.0), miniUI (>= 0.1)
+Imports: git2r (>= 0.15.0), rstudioapi (>= 0.7.0), devtools (>= 1.13.1), shiny (>= 1.0), miniUI
+          (>= 0.1)
 Suggests: testthat
 License: Apache License (== 2.0) | file LICENSE
 MD5sum: 8e3a565d4a1f46cec2e1673043768fa6
 NeedsCompilation: no
 
 Package: bcmaps.rdata
-Version: 0.1.0
+Version: 0.1.2
 Depends: R (>= 3.4.2)
 Suggests: sf (>= 0.5-4), bcmaps
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: 02c6bd919168690e8129109003c8662d
+MD5sum: 55d780791aa2c16682baa4d9dd50bd6b
 NeedsCompilation: no
