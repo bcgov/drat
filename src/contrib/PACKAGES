@@ -13,5 +13,5 @@ Version: 0.1.2
 Depends: R (>= 3.4.2)
 Suggests: sf (>= 0.5-4), bcmaps
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: 55d780791aa2c16682baa4d9dd50bd6b
+MD5sum: 8d080f573c2688b03fbabad894532f0f
 NeedsCompilation: no
