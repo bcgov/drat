@@ -33,7 +33,7 @@ Now you can install a package from the bcgov repository with `install.packages()
 For example:
 
 ```r
-install.packages("bcgovr")
+install.packages(NAME_OF_PACKAGE_TO_INSTALL)
 ```
 
 #### Package Authors: Adding a package to the bcgov drat repository.
