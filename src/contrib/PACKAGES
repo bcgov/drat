@@ -7,10 +7,10 @@ MD5sum: d3df3b004051549ae81396f3eb1ff9e1
 NeedsCompilation: no
 
 Package: tidyhydat.ws
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.4.0)
 Imports: dplyr (>= 0.7.3), httr (>= 1.3.1), rlang (>= 0.1.2)
 Suggests: ggplot2, knitr, rmarkdown, testthat
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: 2bbe9facb59c17f40595ef227f8c594d
+MD5sum: e480c7e835d67332f470854e25365bd2
 NeedsCompilation: no
