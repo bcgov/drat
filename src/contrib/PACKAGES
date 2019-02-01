@@ -6,6 +6,14 @@ License: Apache License (== 2.0) | file LICENSE
 MD5sum: d3df3b004051549ae81396f3eb1ff9e1
 NeedsCompilation: no
 
+Package: bcmapsdata
+Version: 0.3.0
+Depends: R (>= 3.4.0)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: fdd8983206417b93a78ffede2a0c3b44
+NeedsCompilation: no
+
 Package: tidyhydat.ws
 Version: 0.1.4
 Depends: R (>= 3.4.0)
