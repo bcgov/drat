@@ -7,18 +7,17 @@ MD5sum: d3df3b004051549ae81396f3eb1ff9e1
 NeedsCompilation: no
 
 Package: bcmapsdata
-Version: 0.3.1
+Version: 0.3.2
 Depends: R (>= 3.4.0)
 Suggests: sf (>= 0.5-4), bcmaps
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: 04b0341f9abf5a345152bb9576940c08
+MD5sum: 87bbd3112cdac46a0cd5aa5387e6ca8c
 NeedsCompilation: no
 
 Package: tidyhydat.ws
 Version: 0.1.4
 Depends: R (>= 3.4.0)
-Imports: lubridate, dplyr (>= 0.7.3), httr (>= 1.3.1), rlang (>=
-       0.1.2)
+Imports: lubridate, dplyr (>= 0.7.3), httr (>= 1.3.1), rlang (>= 0.1.2)
 Suggests: ggplot2, knitr, rmarkdown, testthat
 License: Apache License (== 2.0) | file LICENSE
 MD5sum: f330669daa45a1c2666c8836ca846d83
