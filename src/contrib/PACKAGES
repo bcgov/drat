@@ -7,11 +7,11 @@ MD5sum: d3df3b004051549ae81396f3eb1ff9e1
 NeedsCompilation: no
 
 Package: bcmapsdata
-Version: 0.3.2
+Version: 0.3.3
 Depends: R (>= 3.4.0)
 Suggests: sf (>= 0.5-4), bcmaps
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: 87bbd3112cdac46a0cd5aa5387e6ca8c
+MD5sum: b15a168e82f3a149d30589ff1614f516
 NeedsCompilation: no
 
 Package: tidyhydat.ws
