@@ -1,4 +1,4 @@
-<div id="devex-badge"><a rel="Inspiration" href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="An idea being explored and shaped. Open for discussion, but may never go anywhere." style="border-width:0" src="https://assets.bcdevexchange.org/images/badges/inspiration.svg" title="An idea being explored and shaped. Open for discussion, but may never go anywhere." /></a></div>
+![img](https://img.shields.io/badge/Lifecycle-Experimental-339999)
 
 # drat - bcgov R package 📦 repository
 
