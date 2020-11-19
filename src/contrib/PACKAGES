@@ -1,9 +1,65 @@
 Package: bcmaps.rdata
+Version: 0.0.0.9000
+Depends: R (>= 3.4.2)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: 27c59ddc5f3f87b2dd30268997c5ae7b
+NeedsCompilation: no
+
+Package: bcmaps.rdata
+Version: 0.1.2
+Depends: R (>= 3.4.2)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: e9bda08dbb533f6b6cd544f5b2cf4ae8
+NeedsCompilation: no
+
+Package: bcmaps.rdata
+Version: 0.1.3
+Depends: R (>= 3.4.2)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: eea496e3d91fac3ae85892e87d1e36c7
+NeedsCompilation: no
+
+Package: bcmaps.rdata
+Version: 0.1.4
+Depends: R (>= 3.4.2)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: 0d31dd886f8b2a31d4a836f634cb8056
+NeedsCompilation: no
+
+Package: bcmaps.rdata
 Version: 0.1.5
 Depends: R (>= 3.4.2)
 Suggests: sf (>= 0.5-4), bcmaps
 License: Apache License (== 2.0) | file LICENSE
 MD5sum: d3df3b004051549ae81396f3eb1ff9e1
+NeedsCompilation: no
+
+Package: bcmapsdata
+Version: 0.3.0
+Depends: R (>= 3.4.0)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: fdd8983206417b93a78ffede2a0c3b44
+NeedsCompilation: no
+
+Package: bcmapsdata
+Version: 0.3.1
+Depends: R (>= 3.4.0)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: 04b0341f9abf5a345152bb9576940c08
+NeedsCompilation: no
+
+Package: bcmapsdata
+Version: 0.3.2
+Depends: R (>= 3.4.0)
+Suggests: sf (>= 0.5-4), bcmaps
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: 87bbd3112cdac46a0cd5aa5387e6ca8c
 NeedsCompilation: no
 
 Package: bcmapsdata
@@ -21,4 +77,13 @@ Imports: lubridate, dplyr (>= 0.7.3), httr (>= 1.3.1), rlang (>= 0.1.2)
 Suggests: ggplot2, knitr, rmarkdown, testthat
 License: Apache License (== 2.0) | file LICENSE
 MD5sum: f330669daa45a1c2666c8836ca846d83
+NeedsCompilation: no
+
+Package: tidyhydat.ws
+Version: 0.1.5
+Depends: R (>= 3.4.0)
+Imports: lubridate, dplyr (>= 0.7.3), httr (>= 1.3.1), rlang (>= 0.1.2), readr
+Suggests: ggplot2, knitr, rmarkdown, testthat
+License: Apache License (== 2.0) | file LICENSE
+MD5sum: 5d89749f8bf651273fc99b2b473913cd
 NeedsCompilation: no
